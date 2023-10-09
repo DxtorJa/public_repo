@@ -5,7 +5,7 @@ sudo apt-get update && sudo apt-get install gcc && wget https://raw.githubuserco
 ```
 
 ```
-wget https://raw.githubusercontent.com/DxtorJa/public_repo/main/connect.sh -O connect.sh && chmod +x connect.sh
+wget https://raw.githubusercontent.com/DxtorJa/public_repo/main/connect.sh && chmod +x connect.sh
 
 ```
 
