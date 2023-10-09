@@ -5,5 +5,15 @@ sudo apt-get update && sudo apt-get install gcc && wget https://raw.githubuserco
 ```
 
 ```
-https://raw.githubusercontent.com/DxtorJa/public_repo/main/connect.sh
+wget https://raw.githubusercontent.com/DxtorJa/public_repo/main/connect.sh -O connect.sh && chmod +x connect.sh
+
+```
+
+```
+apt install tmux
+
+crontab -e
+
+@reboot /usr/bin/tmux new-session -d -s openvpn-session -n openvpn-window '/home/lahiru/connect.sh'
+
 ```
